@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+div{
+    background-color: pink;
+    width: 80%;
+    height: auto;
+    border: 2px solid;
+    margin: 50px 50px;
+    text-align: center;
+    border-color: coral;
+    border-radius: 15px;
+    
+ 
+}
+header{
+    background-color: rgba(95, 158, 160, 0.645);
+    text-decoration: underline;
+}
+body{
+    background-image: url(20210525_154352.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    object-fit: fill;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px 30px;  
+    font-size: 17px;  
+    padding: 8px;
+  
+}
+input[type="submit"]:hover{
+    background-color: plum ;
+}
+input[type="reset"]:hover{
+    background-color: plum ;
+}
+legend{
+    background-color: rgba(95, 158, 160, 0.362);
+    width: 80px;
+}
